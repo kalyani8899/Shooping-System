@@ -22,7 +22,7 @@ namespace ShopBrigeProject
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("=====================================================================================================================");
             Console.WriteLine("\n");
-            string constr = "Data source=LAPTOP-RL6IFAP1;initial catalog=Product;user=sa;password=Pooja@2708";
+            string constr = "Data source=LAPTOP-RL6IFAP1;initial catalog=Product;user=sa;password=Kalyani@8899";
             con = new SqlConnection();
 
             con.ConnectionString = constr;
@@ -31,7 +31,7 @@ namespace ShopBrigeProject
         }
         public static bool Validation(string username, string password)
         {
-            if (username == "Pooja" && password == "Pass@123")
+            if (username == "Kalyani" && password == "Pass@123")
             {
 
                 Console.ForegroundColor = ConsoleColor.Green;
